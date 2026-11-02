@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Polo</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>Polo</h1>
+    <p class="tag">Snap a poster. It's in your calendar.</p>
+  </header>
+
+  <main>
+    <section id="capture" class="card">
+      <label class="snap">
+        <input id="photo" type="file" accept="image/*" capture="environment" hidden>
+        <span>Snap or upload a poster</span>
+      </label>
+      <div class="or">or paste an Instagram caption, email or message</div>
+      <textarea id="text" rows="4" placeholder="Paste event text here"></textarea>
+      <div id="dev" class="dev" hidden>
+        <label>Model <select id="model"></select></label>
+        <label class="check"><input type="checkbox" id="compare"> Compare all available models</label>
+      </div>
+      <button id="go" class="primary">Extract event</button>
+      <p id="status" class="status" role="status"></p>
+    </section>
+
+    <section id="results"></section>
+  </main>
+
+  <template id="event-tpl">
+    <article class="card event">
+      <div class="row head">
+        <input class="title" data-f="title" aria-label="Title">
+      </div>
+      <div class="grid">
+        <label>Date<input type="date" data-f="date"></label>
+        <label>Start<input type="time" data-f="start_time"></label>
+        <label>End<input type="time" data-f="end_time"></label>
+        <label class="wide">Where<input data-f="location_text"></label>
+        <label>Room<input data-f="room"></label>
+        <label class="check"><input type="checkbox" data-f="free_food"> Free food</label>
+      </div>
+      <p class="building"></p>
+      <p class="desc"></p>
+      <p class="sources"></p>
+      <div class="visibility">
+        <span>Who can see this?</span>
+        <div class="seg">
+          <button data-v="private" class="on">Only me</button>
+          <button data-v="public">Everyone at UBC</button>
+        </div>
+        <p class="hint">Public events will appear on the campus map when it launches.</p>
+      </div>
+      <div class="actions">
+        <button class="ics primary">Add to Apple / Outlook</button>
+        <a class="gcal" target="_blank" rel="noopener">Add to Google Calendar</a>
+        <button class="drop">Not an event</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

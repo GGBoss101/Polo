@@ -1,0 +1,23 @@
+[project]
+name = "polo-extract"
+version = "0.1.0"
+description = "Poster/text to calendar event extraction for Polo"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=2.3.0",
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "python-multipart>=0.0.9",
+    "pydantic>=2.7",
+    "httpx>=0.27",
+    "opencv-python-headless>=4.10",
+    "numpy>=1.26",
+    "zxing-cpp>=2.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["polo_extract"]

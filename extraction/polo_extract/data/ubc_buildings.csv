@@ -1,0 +1,50 @@
+code,name,aliases,code_verified
+ALRD,Allard Hall,allard|law building|peter a allard,y
+ANGU,Henry Angus Building,angus|sauder|sauder school of business|henry angus,y
+AUDX,Auditorium Annex,auditorium annex,y
+BIOL,Biological Sciences Building,biology building|bio sci|biosci,y
+BUCH,Buchanan,buch|buchanan a|buchanan b|buchanan c|buchanan d|buchanan tower,y
+CEME,Civil and Mechanical Engineering Building,ceme|civil mech,y
+CHBE,Chemical and Biological Engineering Building,chbe,y
+CHEM,Chemistry Building,chem|chemistry,y
+CIRS,Centre for Interactive Research on Sustainability,cirs,y
+DMP,Hugh Dempster Pavilion,dempster|hugh dempster,y
+ESB,Earth Sciences Building,esb|earth sci,y
+FNH,Food Nutrition and Health Building,fnh,y
+FRDM,Friedman Building,friedman,y
+FRWO,Frederic Wood Theatre,freddy wood|frederic wood|fred wood,y
+FSC,Forest Sciences Centre,forestry|forest sciences|fsc,y
+GEOG,Geography Building,geography,y
+HEBB,Hebb Building,hebb|hebb theatre,y
+HENN,Hennings Building,hennings,y
+IBLC,Irving K. Barber Learning Centre,ikb|ikblc|irving|barber|irving k barber,y
+ICCS,ICICS/CS Building,icics|cs building|computer science building|x wing|x-wing,y
+IONA,Iona Building,iona,y
+KAIS,Fred Kaiser Building,kaiser|fred kaiser,y
+KOER,Walter C. Koerner Library,koerner|koerner library,n
+LASR,Frederic Lasserre Building,lasserre,y
+LIFE,UBC Life Building,life building|old sub|ubc life,y
+LSC,Life Sciences Centre,lsc|life sci|life sciences,y
+LSK,Leonard S. Klinck Building,lsk|klinck,y
+MATH,Mathematics Building,math building|math,y
+MATX,Mathematics Annex,math annex,y
+MCLD,MacLeod Building,macleod,y
+MCML,MacMillan Building,macmillan|mcml,y
+NEST,AMS Student Nest,nest|the nest|ams nest|new sub|student nest|ams student nest,n
+ORCH,Orchard Commons,orchard|orchard commons,y
+PHRM,Pharmaceutical Sciences Building,pharmacy|pharm sci|pharmaceutical sciences,y
+SCRF,Neville Scarfe Building,scarfe|neville scarfe,y
+SPPH,School of Population and Public Health,spph,y
+SRC,Student Recreation Centre,src|rec centre|student rec|bird coop|birdcoop,y
+SWNG,West Mall Swing Space,swing|swing space|west mall swing,y
+WESB,Wesbrook Building,wesbrook,y
+WOOD,Woodward IRC,woodward|irc|woodward irc,y
+CHAN,Chan Centre for the Performing Arts,chan centre|chan center,n
+MOA,Museum of Anthropology,moa|museum of anthropology,n
+BKST,UBC Bookstore,bookstore|ubc bookstore,n
+TOTM,Totem Park Residence,totem|totem park,n
+VANR,Place Vanier Residence,vanier|place vanier,n
+BRCK,Brock Commons,brock commons|tallwood,n
+DMTSC,Doug Mitchell Thunderbird Sports Centre,thunderbird arena|doug mitchell|t-bird arena,n
+TBST,Thunderbird Stadium,thunderbird stadium,n
+NITB,Nitobe Memorial Garden,nitobe|nitobe garden,n

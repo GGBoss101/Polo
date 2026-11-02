@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
+extraction/logs/
+eval/runs/
+eval/posters/*
+!eval/posters/.gitkeep
+.DS_Store
+node_modules/
